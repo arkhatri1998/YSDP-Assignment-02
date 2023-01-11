@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(97, 79, 194);
+}
+
+.navbar {
+    height: 200px;
+    width: 99.7%;
+    margin: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 119px;
+    text-align: center;
+    color: rgb(97, 79, 194);
+    font-size: 40px;
+}
+
+.navbar img {
+    height: 130PX;
+    width: 130PX;
+}
+
+table input {
+    width: 300px;
+}
+
+table textarea {
+    width: 300px;
+}
+
+.special {
+    width: 900px;
+}
+
+.special input {
+    width: 20px;
+}
+
+.edu_other {
+    margin-left: 0px;
+}
+
+.edu_other input {
+    width: 200px;
+}
+
+.hobbieschk input {
+    width: 10px;
+}
+
+.hobbies_td {
+    width: 500px;
+}
+
+.qualification input {
+    width: 250px;
+}

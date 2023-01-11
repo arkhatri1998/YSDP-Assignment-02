@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSDP | Assignment No 2</title>
+    <link rel="shortcut icon" href="/Assignment 2/YSDP.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="YSDP.png" alt="" srcset="">
+        <br> STUDENT REGISTRATION FORM
+    </div>
+    <div>
+        <table style="border: 1;">
+            <tr>
+                <td>
+                    <label for="fname">First Name</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="fname" name="firstname" placeholder="Abdur" maxlength="30" class="form"> (max 30 characterstics a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lname" class="form">Last Name</label></td>
+                <td colspan="2"><input type="text" id="lname" name="lastname" placeholder="Rehman" maxlength="30" class="form"> (max 30 characterstics a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="dob" class="form">Date Of Birth</label>
+                </td>
+                <td colspan="2">
+                    <input type="date" name="bday" id="dob" placeholder="dd-mm-yyyy" value="" min="1947-08-14" max="2030-12-31" class="form">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email" class="form">Email Id</label>
+                </td>
+                <td colspan="2">
+                    <input type="email" name="email" class="form" id="email" placeholder="abdurrehmankhatri1998@gmail.com">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="M-nmbr" class="form">Mobile Number</label>
+                </td>
+                <td colspan="2">
+                    <input type="tel" id="M-nmbr" class="form" name="M-nmbr" maxlength="11" placeholder="03132379229"> (11 digit number)
+                </td>
+            </tr>
+
+            <tr class="special">
+                <td>
+                    <label for="gender" class="form">Gender</label>
+                </td>
+                <td>
+                    <label for="Male" class="form">Male</label>
+                    <input type="radio" id="Male" class="form" name="gender" value="Male" checked="checked">
+                    <label for="female" class="form">Female</label>
+                    <input type="radio" id="female" class="form" name="gender" value="female">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address" class="form">Address</label>
+                </td>
+                <td colspan="2">
+                    <textarea name="address" id="address" class="form" cols="30" rows="3" placeholder="Baldia Town Karachi"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="city" class="form">City</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="city" class="form" name="city" maxlength="30" placeholder="Karachi"> (max 30 characterstics a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pincode" placeholder="75760" class="form">Pin Code</label>
+                </td>
+                <td colspan="2">
+                    <input type="tel" id="pincode" class="form" name="pincode" maxlength="6"> (max 6 digits number)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="state" class="form">State</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="state" class="form" name="state" maxlength="30" placeholder="Sindh"> (max 30 characterstics a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="country" class="form">Country</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="country" class="form" name="country" maxlength="30" placeholder="Pakistan"> (max 30 characterstics a-z and A-Z)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="other" class="form">Hobbies</label>
+                </td>
+                <td class="hobbies_td hobbieschk">
+                    <label for="drawing" class="form">Drawing</label>
+                    <input type="checkbox" id="drawing" class="form" name="hobbies" value="drawing">
+
+                    <label for="singing" class="form">Singing</label>
+                    <input type="checkbox" id="singing" class="form" name="hobbies" value="singing">
+
+                    <label for="dancing" class="form">Dancing</label>
+                    <input type="checkbox" id="dancing" class="form" name="hobbies" value="dancing">
+
+                    <label for="sketching" class="form">Sketching</label>
+                    <input type="checkbox" id="sketching" class="form" name="hobbies" value="sketching">
+
+                    <label for="other" class="form">Other</label>
+                    <input type="checkbox" id="other" class="form" name="hobbies" value="other">
+                </td>
+                <td class="edu_other">
+                    <input type="text" name="other" class="form" maxlength="30" placeholder="Other">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="qualification">
+        <table>
+
+            <tr>
+                <td rowspan="5">
+                    Qualification
+                </td>
+                <td>SI.No.</td>
+                <td>Examination</td>
+                <td>Board</td>
+                <td>Percentage</td>
+                <td>Year Of Passing</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="board" id=""></td>
+                <td><input type="text" name="Percentage" id=""></td>
+                <td><input type="text" name="YearPassing" id=""></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="board" id=""></td>
+                <td><input type="text" name="Percentage" id=""></td>
+                <td><input type="text" name="YearPassing" id=""></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="board" id=""></td>
+                <td><input type="text" name="Percentage" id=""></td>
+                <td><input type="text" name="YearPassing" id=""></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="board" id=""></td>
+                <td><input type="text" name="Percentage" id=""></td>
+                <td><input type="text" name="YearPassing" id=""></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <label for="other" class="form">Courses Applied For</label>
+                </td>
+                <td class="hobbies_td hobbieschk">
+                    <label for="BCA" class="form">BCA</label>
+                    <input type="radio" id="BCA" class="form" name="hobbies" value="BCA">
+
+                    <label for="B.Com" class="form">B.Com</label>
+                    <input type="radio" id="B.Com" class="form" name="hobbies" value="B.Com">
+
+                    <label for="B.Sc" class="form">B.Sc</label>
+                    <input type="radio" id="B.Sc" class="form" name="hobbies" value="B.Sc">
+
+                    <label for="B.A" class="form">B.A</label>
+                    <input type="radio" id="B.A" class="form" name="hobbies" value="B.A">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="form">
+                </td>
+                <td>
+                    <input type="reset" class="form">
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>
